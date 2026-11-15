@@ -28,3 +28,5 @@ The app is repo-backed: every push to the tracked branch can redeploy it, and
 | `Dockerfile` | build (Coolify `build_pack: dockerfile`) |
 | `compose.yaml` | local parity / optional compose deploy |
 | `.env.example` | shape of the env; real values live in Coolify |
+
+<!-- interactive ship smoke test 2026-11-15T17:48Z -->
