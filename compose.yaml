@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - APP_NAME=${APP_NAME:-app}
+    restart: unless-stopped
